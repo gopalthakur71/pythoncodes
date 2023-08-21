@@ -10,9 +10,6 @@ def upload_directory(path, bucket_name, s3_client):
             s3_client.upload_file(local_path, bucket_name, s3_path)
             print(f"Uploaded: {s3_path}")
 
-# Set your AWS credentials (replace with your own values)
-#access_key = 'YOUR_ACCESS_KEY'
-#secret_key = 'YOUR_SECRET_KEY'
 
 # Set the path to the root directory you want to upload
 root_directory = 'I:'
