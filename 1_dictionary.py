@@ -5,3 +5,6 @@ gopal = {
     "socity":"BPTP Pride",
     "city": "Faridabad"
 }
+
+a=gopal.get("pin code", 121004)
+print(a)
