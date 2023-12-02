@@ -21,5 +21,5 @@ def delete_bucket(bucket_name, region=None):
         return False
     return True
 
-delete_bucket("ahjvbkndaj", "us-east-2")
+#delete_bucket("ahjvbkndaj", "us-east-2")
 delete_bucket("agamyathakur17", "us-west-1")

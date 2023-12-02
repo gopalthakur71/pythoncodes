@@ -29,7 +29,7 @@ def create_bucket(bucket_name, region=None):
     except ClientError as e:
         logging.error(e)
         return False
-    return True
+    return True,
 
-create_bucket("ahjvbkndaj", "us-east-2")
-create_bucket("agamyathakur17", "us-west-1")
+#create_bucket("ahjvbkndaj", "us-east-2")
+create_bucket("agamyathakur17", "ap-south-1")
